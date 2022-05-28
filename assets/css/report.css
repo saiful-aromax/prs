@@ -1,0 +1,148 @@
+.report_content_table {
+    width: 100%;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.report_content_table td {
+    height: 28px;
+}
+
+.report_content_table th {
+    background-color: #c7ceb9;
+    font-size: 14px;
+    height: 28px;
+}
+
+.report_content_table thead {
+    background-color: #ccd8e1;
+}
+
+.report_header {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.report_sub_header {
+    font-size: 15px;
+    text-align: center;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 34px;
+}
+
+.report_content_table tr:nth-child(even) {
+    background-color: #fef3ff;
+}
+
+.report_content_table tfoot {
+    background-color: #d9e2d9;
+}
+
+@media print {
+    #non_report_content, #main_footer {
+        display: none;
+        visibility: hidden;
+        margin-top: 0px !important;
+    }
+
+    .report_content {
+        margin-top: 0px !important;
+
+    }
+}
+
+.page_break {
+    page-break-before: always;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.TextLeft {
+    text-align: left;
+    padding: 5px;
+}
+
+.TextCENTER {
+    text-align: center;
+
+}
+
+.TextRight {
+    text-align: right;
+    padding: 5px;
+}
+
+.Term_of_Ins {
+    text-align: left;
+    padding: 5px;
+    width: 20%;
+}
+
+.covernote {
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px 30px 20px 30px;
+}
+
+.report_fields_background {
+    background-color: white;
+    margin-left: 0px;
+    width: 100%;
+
+}
+
+#report_button {
+    width: 100px;
+    background-color: rgba(0, 122, 150, 0.84);
+    height: 34px;
+    color: white;
+
+}
+
+#report_content {
+    background-color: white;
+    margin-top: 60px;
+    width: 97%;
+    margin-left: 9px;
+}
+
+#report_button_fire {
+    background-color: green;
+    color: white;
+}
+
+#report_option {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+#report_option ul {
+    min-width: 100px;
+    min-height: 30px;
+}
+
+#report_option ul li {
+    height: 5px;
+    border-top: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#report_option ul li a {
+    background-color: #7dbec6;
+    border-radius: 3px;
+    color: antiquewhite;
+}
+#report_icon > li >a:hover{
+    color:#ffffff;
+    font-weight:bold;
+    font-size: 12px;
+}
+
+.report_border{
+    border-bottom: rgba(8,8,8,0.3) 1px solid;
+    margin: 0 -15px;
+}

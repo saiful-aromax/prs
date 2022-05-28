@@ -1,0 +1,1 @@
+<?php echo form_dropdown($field_name, ['' => '--Select--'] + $options, '', ['id' => $field_name, 'onchange' => $function, 'class' => 'input_textbox form-control']); ?>
